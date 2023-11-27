@@ -52,8 +52,10 @@ android {
 //        minSdkVersion 21
 //        targetSdkVersion flutter.targetSdkVersion
 //        targetSdkVersion 33
-        minSdkVersion localProperties.getProperty('flutter.minSdkVersion').toInteger()
-        targetSdkVersion localProperties.getProperty('flutter.targetSdkVersion').toInteger()
+//        minSdkVersion localProperties.getProperty('flutter.minSdkVersion').toInteger()
+        minSdkVersion 21
+//        targetSdkVersion localProperties.getProperty('flutter.targetSdkVersion').toInteger()
+        targetSdkVersion 33
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }

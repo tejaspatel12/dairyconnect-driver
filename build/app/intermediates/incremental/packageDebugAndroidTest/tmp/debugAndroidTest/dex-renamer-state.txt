@@ -1,7 +1,0 @@
-#Thu Jul 06 16:07:15 BST 2023
-base.0=/Users/tejaspatel/Documents/app/flutter_app/uni/deliveryboy/build/app/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
-base.1=/Users/tejaspatel/Documents/app/flutter_app/uni/deliveryboy/build/app/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/15/classes.dex
-path.0=0/classes.dex
-path.1=15/classes.dex
-renamed.0=classes.dex
-renamed.1=classes2.dex

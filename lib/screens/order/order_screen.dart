@@ -293,8 +293,6 @@ class _OrderScreenState extends State<OrderScreen> {
                                   [
                                     Color(0xFF0E50F6).withOpacity(0.3),
                                     Color(0xFFFFFFFF).withOpacity(0.2),
-                                    // _color.withOpacity(0.3),
-                                    // _color2.withOpacity(0.2),
                                   ],
                                   stops: [0.5, 2],),
                               ),

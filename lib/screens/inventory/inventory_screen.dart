@@ -334,8 +334,6 @@ class _InventoryScreenState extends State<InventoryScreen> {
                                   [
                                     Color(0xFF0E50F6).withOpacity(0.3),
                                     Color(0xFFFFFFFF).withOpacity(0.2),
-                                    // _color.withOpacity(0.3),
-                                    // _color2.withOpacity(0.2),
                                   ],
                                   stops: [0.5, 2],),
                               ),
@@ -346,11 +344,6 @@ class _InventoryScreenState extends State<InventoryScreen> {
                                 onTap: ()
                                 {
                                   Fluttertoast.showToast(msg: data.product_name +" ( "+ data.order_qty+" Quantity )", toastLength: Toast.LENGTH_SHORT, gravity: ToastGravity.BOTTOM, timeInSecForIosWeb: 1, fontSize: 12);
-                                  // Navigator.of(context).pushNamed("/orderdetail",
-                                  //     arguments: {
-                                  //       "user_id" : data.user_id,
-                                  //     }
-                                  // );
                                 },
                                 child: Padding(
                                   padding: const EdgeInsets.fromLTRB(15, 15, 15, 15),
@@ -398,13 +391,6 @@ class _InventoryScreenState extends State<InventoryScreen> {
                                               ),
                                             ),
                                           ),
-                                          // SizedBox(
-                                          //   height: spacing_standard,
-                                          // ),
-                                          // Text(
-                                          //   "100 Quantity",
-                                          //   style: TextStyle(fontSize: textSizeSMedium,fontWeight: FontWeight.w700, color: whitecolor),
-                                          // ),
                                         ],
                                       ),
 

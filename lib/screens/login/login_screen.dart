@@ -157,21 +157,8 @@ class LoginScreenState extends State<LoginScreen> implements LoginScreenContract
                               key: formKey,
                               child: Column(
                                 children: [
-                                  // _isLoading==true?
-                                  // Image.asset(
-                                  //   'images/logo.png',
-                                  //   width: MediaQuery.of(context).size.width * 80,
-                                  //   height: MediaQuery.of(context).size.height * 0.20,
-                                  // ):
-                                  // Image.network(RestDatasource.MORE_IMAGE + app_login,
-                                  //   width: MediaQuery.of(context).size.width * 0.30,
-                                  //   height: MediaQuery.of(context).size.height * 0.20,
-                                  // ),
-
                                   Image.asset(
-                                    // 'images/logo.png',
                                     'images/logo_bg.png',
-                                    // 'images/apple.png',
                                     width: MediaQuery.of(context).size.width * 80,
                                     height: MediaQuery.of(context).size.height * 0.20,
                                   ),
@@ -179,15 +166,6 @@ class LoginScreenState extends State<LoginScreen> implements LoginScreenContract
                                   SizedBox(
                                     height: MediaQuery.of(context).size.width * 0.06,
                                   ),
-
-                                  // Row(
-                                  //   crossAxisAlignment: CrossAxisAlignment.center,
-                                  //   mainAxisAlignment: MainAxisAlignment.center,
-                                  //   children: [
-                                  //     Text("Login ", style: TextStyle(color: greencolor,fontSize: textSizeLargeMedium),),
-                                  //     Text("or Register", style: TextStyle(color: whitecolor,fontSize: textSizeLargeMedium),),
-                                  //   ],
-                                  // ),
                                   Text("Delivery Boy Login", style: TextStyle(color: redcolor,fontSize: textSizeNormal,fontWeight: FontWeight.w600),),
 
                                   SizedBox(
@@ -201,10 +179,7 @@ class LoginScreenState extends State<LoginScreen> implements LoginScreenContract
                                       onSaved: (val) => _mobile_numbers = val,
                                       validator: validateMobile,
                                       decoration: InputDecoration(
-
-                                        // labelText: 'Enter Your Mobile Number',
                                           hintText: 'Enter Your Mobile Number',
-
                                           hintStyle: TextStyle(color: maincolor),
                                           labelStyle: TextStyle(color: maincolor),
                                           focusedBorder: OutlineInputBorder(
